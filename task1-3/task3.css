@@ -1,0 +1,49 @@
+.main{
+	max-height: 460px;
+	background: #eee;
+	border:solid 2px #999;
+	padding:20px;
+	overflow: hidden;
+}
+img{
+
+	width: 80px;
+	height: 80px;
+
+}
+.sub1{
+	background:#fff;
+	border:solid 2px #999;
+	padding:20px;
+	width:200px;
+	float:left;
+}
+.sub1 img{
+	float:left;
+}
+.sub1 p{
+	float:left;
+	margin-left:20px;
+}
+.sub2{
+	background: #fff;
+	border:solid 2px #999;
+	padding:20px;
+	width:300px;
+	float:left;
+	margin-left:20px;
+}
+.sub3{
+	background:#fff;
+	border:solid 2px #999;
+	padding:20px;
+	width:80px;
+	float:left;
+	margin-left:20px;
+
+}
+.sub3 img{
+	
+	
+}
+
