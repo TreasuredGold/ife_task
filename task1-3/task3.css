@@ -1,9 +1,10 @@
 .main{
-	max-height: 460px;
+	min-height: 460px;
 	background: #eee;
 	border:solid 2px #999;
 	padding:20px;
 	overflow: hidden;
+	min-width:800px;
 }
 img{
 
@@ -15,7 +16,7 @@ img{
 	background:#fff;
 	border:solid 2px #999;
 	padding:20px;
-	width:200px;
+	width:180px;
 	float:left;
 }
 .sub1 img{
@@ -29,21 +30,24 @@ img{
 	background: #fff;
 	border:solid 2px #999;
 	padding:20px;
-	width:300px;
-	float:left;
-	margin-left:20px;
+	margin-left: 260px;
+	margin-right: 180px;
+	min-width: 30px;
+	
 }
 .sub3{
+
 	background:#fff;
 	border:solid 2px #999;
 	padding:20px;
+	padding-bottom: 0px;
 	width:80px;
-	float:left;
-	margin-left:20px;
+	float:right;
+
 
 }
 .sub3 img{
-	
+	vertical-align:20px;
 	
 }
 
