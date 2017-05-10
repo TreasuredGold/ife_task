@@ -9,3 +9,17 @@
 	bottom:0;
 	right:0;
 }
+.round{
+	background-color: #fc0;
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	position:absolute;
+
+}
+.left{
+  
+}
+.right{
+	
+}
