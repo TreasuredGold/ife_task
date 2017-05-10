@@ -14,12 +14,14 @@
 	border-radius: 50%;
 	height:50px;
 	width:50px;
-	position:absolute;
+	position:relative;
 
 }
 .left{
-  
+   left:0;
+   top:0;
 }
 .right{
-	
+   bottom:0;
+   right:0;
 }
