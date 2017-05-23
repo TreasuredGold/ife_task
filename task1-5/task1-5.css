@@ -34,3 +34,10 @@ nav{
 	height:80PX;
 
 }
+.subcontent{
+	width:350px;
+	float:right;
+    background-color: #ccc;
+    margin:20px;
+    
+}
