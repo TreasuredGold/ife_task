@@ -1,9 +1,16 @@
+body{
+    margin:0;
+	padding:0;
+	background: #56eff4;
+}
+
 .icon{	
 	width:20px;
 	height: 20px;
 }
 header{
 	overflow:hidden;
+
 }
 nav{
 	float:right;
@@ -11,11 +18,23 @@ nav{
 }
 .mainContent{
 	background-color: #ccc;
-	
+	margin-bottom: 20px;
+}
 
+.rightcontent{
+	width:350px;
+	float:right;
+    padding:20px;
+    margin:20px;
+    background-color: #fff;
+    
+}
+.leftcontent{
+	margin:20px;
+	margin-right: 430px;
 }
 .content{
-	margin:20px;
+    margin-bottom:20px;
 	padding:10px;
 	background-color: #fff;
 	border-width: 6px;
@@ -33,11 +52,4 @@ nav{
 	width:80px;
 	height:80PX;
 
-}
-.subcontent{
-	width:350px;
-	float:right;
-    background-color: #ccc;
-    margin:20px;
-    
 }

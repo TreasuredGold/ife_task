@@ -5,6 +5,7 @@
   	<meta charset="UTF-8">
   	<title>Document</title>
   	<link rel="stylesheet" href="task1-5.css">
+  	<link rel="stylesheet" href="normalize.css">
 
   </head>
   <body>
@@ -20,63 +21,7 @@
 	    </nav>
    </header>
    <div class="mainContent">
-   		<div class="content">
-   			<h3>文章一级标题</h3>
-   			<h4>文章二级标题</h4>
-   			<h5>文章作者 文章发表时间</h5>
-   			<div>
-   			    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br/> Consectetur autem officia itaque, <b>这里有个粗体字</b>
-   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eius, adipisci earum est quas, obcaecati saepe debitis aliquid praesentium nobis? Quibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
-   			</div>
-   			<img src="1.jpg" alt="">
-   			   	<div>
-   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Consectetur autem officia itaque, <b>这里有个粗体字</b>
-   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consesci earum est quas, obQuibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
-   			</div>
-
-   		</div>
-   		<div class="content">
-   			<h3>另一篇文章一级标题</h3>
-   			<h4>文章二级标题</h4>
-   			<h5>文章作者 文章发表时间</h5>
-   			<div>
-   			    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br/> Consectetur autem officia itaque, <b>这里有个粗体字</b>
-   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eius, adipisci earum est quas, obcaecati saepe debitis aliquid praesentium nobis? Quibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
-   			</div>
-   			<img src="1.jpg" alt="">
-   			<ul class="content2list">
-   				<li>列表项目一</li>
-   				<li>列表项目二</li>
-   				<li>列表项目三</li>
-   			</ul>
-   			
-   		</div>
-   		<div class="content">
-   			<h3>图片</h3>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-    		<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>  
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>		
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
-   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>	
-   		</div>
-   		<div class="content">
-   			<h3>最后一篇文章一级标题</h3>
-   			<h4>文章二级标题</h4>
-   			<h5>文章作者 文章发表时间</h5>
-   			<ol>
-   				<li>排名1</li>
-   				<li>排名1</li>
-   				<li>排名1</li>
-   			</ol>
-   			<p>	下面是一个表格</p>
-
-   		</div>
-   		<div class="subcontent">
+   		<div class="rightcontent">
    			<div>这里以后是一个侧栏，这是侧栏的标题</div>
    			<div>
    				<div class="inputm">请输入邮箱地址</div>
@@ -93,39 +38,97 @@
    			</div>
    			 <div>密码请为6-16位英文数字</div>
    			 <div>
-      <div class="input_messages">性别：</div>
-      <input type="radio" name="sex" id="man" checked="checked"/>
-      <label for="man">男</label>
-      <input type="radio" name="sex" id="woman"/>
-      <label for="woman">女</label>
-    </div>
-    <div>
-      <div class="input_messages">城市：</div>
-      <select>
-        <option value="BJ">北京</option>
-        <option value="SH">上海</option>
-        <option value="GZ">广州</option>
-      </select>
-    </div>
-    <div>
-      <div class="input_messages">爱好：</div>
-      <input type="checkbox" id="sport"/>
-      <label for="sport">运动</label>
-      <input type="checkbox" id="art"/>
-      <label for="art">艺术</label>
-      <input type="checkbox" id="science"/>
-      <label for="science">科学</label>
-    </div>
-    <div>
-      <div class="input_message">个人描述：</div>
-      <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
-    </div>
-    <div class="submit">
-      <input type="submit" value="确认提交"/>
-    </div>
+      			<div class="input_messages">性别：</div>
+      			<input type="radio" name="sex" id="man" checked="checked"/>
+      			<label for="man">男</label>
+      			<input type="radio" name="sex" id="woman"/>
+      			<label for="woman">女</label>
+   			 </div>
+    		<div>
+      			<div class="input_messages">城市：</div>
+      			<select>
+        			<option value="BJ">北京</option>
+       				<option value="SH">上海</option>
+        			<option value="GZ">广州</option>
+      			</select>
+  		    </div>
+   			<div>
+      			<div class="input_messages">爱好：</div>
+      			<input type="checkbox" id="sport"/>
+      			<label for="sport">运动</label>
+      			<input type="checkbox" id="art"/>
+      			<label for="art">艺术</label>
+      			<input type="checkbox" id="science"/>
+      			<label for="science">科学</label>
+    		</div>
+    		<div>
+      			<div class="input_message">个人描述：</div>
+      			<textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+    		</div>
+    		<div class="submit">
+      			<input type="submit" value="确认提交"/>
+    		</div>
+		</div>
+        <div class="leftcontent">
+   		   	<div class="content">
+   			<h3>文章一级标题</h3>
+   			<h4>文章二级标题</h4>
+   			<h5>文章作者 文章发表时间</h5>
+   			<div>
+   			    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br/> Consectetur autem officia itaque, <b>这里有个粗体字</b>
+   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eius, adipisci earum est quas, obcaecati saepe debitis aliquid praesentium nobis? Quibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
+   			</div>
+   			<img src="1.jpg" alt="">
+   			   	<div>
+   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Consectetur autem officia itaque, <b>这里有个粗体字</b>
+   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consesci earum est quas, obQuibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
+   			</div>
+   			</div>
+
+   			<div class="content">
+   			<h3>另一篇文章一级标题</h3>
+   			<h4>文章二级标题</h4>
+   			<h5>文章作者 文章发表时间</h5>
+   			<div>
+   			    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br/> Consectetur autem officia itaque, <b>这里有个粗体字</b>
+   				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quasi fuga aliquid maxime modi dicta architecto, omnis sapiente dignissimos.<br> Consectetur autem officia itaque, <a href="">这里有一个链接</a>ipsa rem atque laudantium, laboriosam quasi fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eius, adipisci earum est quas, obcaecati saepe debitis aliquid praesentium nobis? Quibusdam repellendus quae dicta officiis eligendi molestiae maxime exercitationem officia!
+   			</div>
+   			<img src="1.jpg" alt="">
+   			<ul class="content2list">
+   				<li>列表项目一</li>
+   				<li>列表项目二</li>
+   				<li>列表项目三</li>
+   			</ul>	
+   			</div>
+
+   			<div class="content">
+   			<h3>图片</h3>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+    		<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>  
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>		
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>
+   			<div class="image8"> 好看的图片 <img class="imagefix" src="1.jpg" alt=""></div>	
+   			</div>
+
+   			<div class="content">
+   			<h3>最后一篇文章一级标题</h3>
+   			<h4>文章二级标题</h4>
+   			<h5>文章作者 文章发表时间</h5>
+   			<ol>
+   				<li>排名1</li>
+   				<li>排名1</li>
+   				<li>排名1</li>
+   			</ol>
+   			<p>	下面是一个表格</p>
+   			</div>
+		</div>
 
 
-   		</div>
    </div>
   </body>
   </html>
