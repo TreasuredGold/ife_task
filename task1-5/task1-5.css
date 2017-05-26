@@ -47,12 +47,14 @@ h3{
 	float:right;
     padding:20px;
     margin:20px;
+    margin-left: 0px;
     background-color: #fff;
     
 }
 .leftcontent{
-	margin:20px;
-	margin-right: 430px;
+    
+    padding:20px;
+	margin-right: 410px;
 }
 .content{
     margin-bottom:20px;
